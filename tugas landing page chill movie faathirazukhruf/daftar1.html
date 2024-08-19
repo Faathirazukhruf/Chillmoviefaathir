@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill - Register</title>
+    <style>
+        body {
+            background-color: #181818;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #282828;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="password"] {
+            margin-bottom: 10px;
+        } 
+
+        .button-daftar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e20c0c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button-daftar:hover {
+  background-color: #11388b;
+}
+
+
+        .google-btn {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 40px;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .form-group label {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Logo.png" alt="Chill"> 
+        </div>
+        <h2>Daftar</h2>
+        <p>Selamat datang!</p>
+        <form action="#">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Kata Sandi</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Kofirmasi Kata Sandi</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Masukkan kata sandi" required>
+            </div>
+            <a href="homepage.html" class="button-daftar">Daftar</a>
+            <p>Sudah punya akun? <a href="homepage.html">Masuk</a></p>
+        </form>
+    </div>
+</body>
+</html> 
